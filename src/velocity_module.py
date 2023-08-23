@@ -156,7 +156,8 @@ def get_most_repited(df):
 
 
 def show_sk(id_person, flag):
-    df = read_modified_file("UNI_CORR_500_01.txt")
+    df = pd.read_csv(
+        'https://raw.githubusercontent.com/Clauido/PC-Laboratorio/main/src/results/UNI_CORR_500_01_modified.txt', sep='\t')
     show_sk_vel_graph(df, id_person, flag)
 
 
