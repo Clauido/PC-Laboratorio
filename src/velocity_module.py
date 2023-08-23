@@ -201,7 +201,7 @@ with st.container():
         'Esta aplicación es para observar el comportamiento de peatones en el pasillo de un metro')
     left_column, right_column = st.columns(2)
     with left_column:
-        st.markdown(f'<h4 style="text-align: left; font-size: 24px;"><a href="https://github.com/Javiera31/PC-Laboratorio/blob/main/images/sk_vel_graph.png" target="_blank" style="text-decoration: none; color: inherit;"><u>Visita el repositorio en GitHub</u></a></h4>', unsafe_allow_html=True)
+        st.markdown(f'<h4 style="text-align: left; font-size: 24px;"><a href="https://github.com/Clauido/PC-Laboratorio" target="_blank" style="text-decoration: none; color: inherit;"><u>Visita el repositorio en GitHub</u></a></h4>', unsafe_allow_html=True)
     with right_column:
         st.image(
             'https://github.com/Clauido/PC-Laboratorio/raw/main/images/github-mark-white.png', width=35)
